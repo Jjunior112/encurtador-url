@@ -21,7 +21,7 @@ public class UrlController {
         this.httpServletRequest = httpServletRequest;
     }
 
-    @PostMapping(value = "/shorten-url")
+    @PostMapping("/shorten-url")
     public ResponseEntity<UrlResponseDto> generateShortenUrl(@RequestBody UrlRequestDto requestDto) {
         var result = urlService.generate(requestDto.url());
 
