@@ -1,8 +1,8 @@
 package com.encurtador_url.application.controllers;
 
 import com.encurtador_url.application.services.UrlService;
-import com.encurtador_url.domain.dtos.UrlRequestDto;
-import com.encurtador_url.domain.dtos.UrlResponseDto;
+import com.encurtador_url.domain.dtos.url.UrlRequestDto;
+import com.encurtador_url.domain.dtos.url.UrlResponseDto;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
